@@ -1,0 +1,33 @@
+
+<?php 
+
+use Drupal\Core\Form\FormStateInterface;
+/**
+ * Implements hook_theme_suggestions_HOOK_alter for blocks.
+ */
+function montheme_theme_suggestions_block_alter(&$suggestions, $variables) {
+
+  // Load theme suggestions for blocks from parent theme.
+  foreach ($suggestions as &$suggestion) {
+    $suggestion = str_replace('montheme_', 'belgrade_', $suggestion);
+  }
+
+  
+}
+
+
+function moncustom_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+
+  // Vérifie qu'on est sur le bon form de la vue du panier.
+  if ($form_id === 'views_form_commerce_cart_form_default_2') {
+    
+    // Supprimer ou masquer le bouton "Checkout" à l'intérieur du formulaire.
+    if (isset($form['actions']['submit'])) {
+      // Option 1 : le masquer proprement (recommandé)
+     // $form['actions']['checkout']['#access'] = FALSE;
+     
+      // Option 2 (facultatif) : le retirer complètement
+       unset($form['actions']['submit']);
+    }
+  }
+}

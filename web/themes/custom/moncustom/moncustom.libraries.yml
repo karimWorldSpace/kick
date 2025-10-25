@@ -1,0 +1,7 @@
+global-styling:
+  js:
+    js/my-script.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/drupal.breakpoint

@@ -1,0 +1,7 @@
+name: 'my_commerce'
+type: module
+description: 'Custom Commerce module '
+core_version_requirement: ^11
+package: 'Custom'
+dependencies:
+  - drupal:block

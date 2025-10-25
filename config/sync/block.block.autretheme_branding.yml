@@ -1,0 +1,25 @@
+uuid: 760c264f-73e0-4293-8b8d-441ab6b19d09
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - autretheme
+_core:
+  default_config_hash: z46aFj7i7rALpdO3PRsi7pJCmgKxL0CUpq53JzXj9qs
+id: autretheme_branding
+theme: autretheme
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,29 @@
+name: autretheme
+type: theme
+description: 'autre theme'
+core_version_requirement: ^11
+base theme: belgrade
+
+# Régions du thème (héritées de Belgrade, vous pouvez les personnaliser)
+regions:
+  navigation: 'Navigation'
+  top_bar: 'Top bar'
+  header: 'Header'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  hidden: 'HIDDEN'
+
+
+
+# Bibliothèques à surcharger de Belgrade (optionnel)
+libraries-override:
+  # belgrade/global-styling: false  # Pour désactiver les styles de Belgrade
+  # belgrade/global-scripts: false   # Pour désactiver les scripts de Belgrade
+
+# Extensions de bibliothèques (optionnel)

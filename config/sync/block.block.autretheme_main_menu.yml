@@ -1,0 +1,27 @@
+uuid: 4fd3da61-4340-4e2b-83ce-47e4c3fc3d0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - autretheme
+_core:
+  default_config_hash: 63FLrk7BpcLU-5YLZwWVCOtOMozD8mSzBytCiu0Oznc
+id: autretheme_main_menu
+theme: autretheme
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

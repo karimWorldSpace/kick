@@ -1,0 +1,31 @@
+uuid: bffd30c1-1f4f-4b9c-ac39-257beec2c38b
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.product_collections
+  module:
+    - facets
+    - system
+  theme:
+    - moncustom
+_core:
+  default_config_hash: v8K-La6XhMUBTPf68sl9ulngue1jZwBUCYjTg8SHC2U
+id: moncustom_productcollections
+theme: moncustom
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'facet_block:product_collections'
+settings:
+  id: 'facet_block:product_collections'
+  label: Categories
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: productcollections
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/products\r\n/products*"

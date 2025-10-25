@@ -1,0 +1,27 @@
+uuid: c72e8ce7-37eb-41c9-b49a-6657700f8486
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - system
+  theme:
+    - autretheme
+_core:
+  default_config_hash: Dr78JU06qEPwMRS9CDsTk011MO9E7Dv6zPVNyM1rDNM
+id: autretheme_social_navigation
+theme: autretheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:social'
+settings:
+  id: 'system_menu_block:social'
+  label: Social
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

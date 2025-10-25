@@ -1,0 +1,24 @@
+uuid: 9e22937b-922a-4be0-a02b-00f38f154943
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - autretheme
+_core:
+  default_config_hash: dkD1_tqLwOGdeyeHmxpUFDeogh-rReXSXIPuhNowRNs
+id: autretheme_shopping_cart
+theme: autretheme
+region: sidebar_first
+weight: -10
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+  show_if_empty: true
+visibility: {  }

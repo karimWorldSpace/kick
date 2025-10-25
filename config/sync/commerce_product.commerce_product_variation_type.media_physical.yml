@@ -1,0 +1,13 @@
+uuid: 36109b13-a3b8-45ee-86d6-3d69fabe4ccc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: n6da1JnwtXrobtSuFboLPi7tdtQ236RhEgOj6_O6nHs
+id: media_physical
+label: 'Media Physical'
+orderItemType: physical_product
+generateTitle: false
+traits:
+  - purchasable_entity_shippable
+locked: false

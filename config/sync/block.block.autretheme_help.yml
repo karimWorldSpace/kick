@@ -1,0 +1,22 @@
+uuid: ca18f1e3-3328-4ea0-aadb-bee7ca246f75
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - autretheme
+_core:
+  default_config_hash: gKtOcSQTQki2pujw1HB5crJu7WlQmuPbl9cMqPDeWtA
+id: autretheme_help
+theme: autretheme
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

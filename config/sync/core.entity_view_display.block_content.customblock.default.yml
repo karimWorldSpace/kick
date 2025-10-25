@@ -1,0 +1,50 @@
+uuid: 3e1085a4-0ef8-45c2-9bc4-a0cddfd91b06
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customblock
+    - field.field.block_content.customblock.body
+  module:
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          9436d591-a030-4f01-a1e7-63815b67a95e:
+            uuid: 9436d591-a030-4f01-a1e7-63815b67a95e
+            region: content
+            configuration:
+              id: 'field_block:block_content:customblock:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: block_content.customblock.default
+targetEntityType: block_content
+bundle: customblock
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,13 @@
+uuid: 4b8553cf-d687-4fd4-9ada-51b11cac3c9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: qyXaUGFRmnZPKOHA_YkU3dweewejRbtD6KDZR-0O_-s
+id: commerce_product.teaser
+label: Teaser
+description: null
+targetEntityType: commerce_product
+cache: true

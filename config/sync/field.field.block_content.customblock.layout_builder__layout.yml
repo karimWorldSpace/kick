@@ -1,0 +1,21 @@
+uuid: a6834242-2f30-4483-a43d-e7e131045242
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customblock
+    - field.storage.block_content.layout_builder__layout
+  module:
+    - layout_builder
+id: block_content.customblock.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: block_content
+bundle: customblock
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

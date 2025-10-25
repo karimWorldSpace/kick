@@ -1,0 +1,22 @@
+uuid: 7ce49650-4462-4ced-849e-593eec73d60c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - moncustom
+_core:
+  default_config_hash: ShCI2CrHlOLfouMMyUnPcqHa3_sX443kM-yE9dIm05E
+id: moncustom_local_tasks
+theme: moncustom
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

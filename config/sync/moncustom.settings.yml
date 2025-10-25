@@ -1,0 +1,49 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+belgrade_enable_color: 0
+base_primary_color: ''
+base_light_color: ''
+base_dark_color: ''
+body_text_color: ''
+body_background_color: ''
+inline_logo: 1
+belgrade_submit_button: 0
+fieldset_accordion: 0
+message_type: alerts
+toast_placement: top_left
+product_teaser: belgrade
+main_container: container-xl
+main_container_class: ''
+navigation_toggle_visibility: 0
+navigation_toggle_text: Menu
+navigation_position: start
+navigation_logo: 1
+navigation_body_scrolling: 0
+navigation_backdrop: 0
+region_class_navigation: 'bg-primary opacify-links text-white'
+region_class_top_bar: 'position-relative bg-dark py-2 opacify-links text-white'
+region_container_top_bar: container-xl
+region_class_header: 'py-5 mt-lg-4'
+region_container_header: container-xl
+region_class_highlighted: ''
+region_container_highlighted: container-xl
+region_class_help: ''
+region_container_help: ''
+region_class_content: col
+region_container_content: ''
+region_class_sidebar_first: 'col-lg-3 me-lg-4 order-first'
+region_container_sidebar_first: ''
+region_class_sidebar_second: col-lg-3
+region_container_sidebar_second: ''
+belgrade_icons: 1
+font_set: raleway
+local_tasks_fixed: 1
+region_class_footer: 'bg-dark py-5 opacify-links text-white'
+region_container_footer: container-xl

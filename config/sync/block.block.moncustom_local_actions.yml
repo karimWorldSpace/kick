@@ -1,0 +1,20 @@
+uuid: 6f28cfc1-08c4-48ba-9be9-055cc8df050b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - moncustom
+_core:
+  default_config_hash: EAlCAHiVy5x3aTOW2K9XaWE4kelyfSSSKv8_uiomGJM
+id: moncustom_local_actions
+theme: moncustom
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

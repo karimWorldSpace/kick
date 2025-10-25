@@ -1,0 +1,22 @@
+uuid: 6c8ebd53-4620-47a0-8cf0-a4981634c5f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - moncustom
+_core:
+  default_config_hash: XJkApTCnidVbNIe-SvLIX1pVPIiw5j_m0SWT-eYw39E
+id: moncustom_content
+theme: moncustom
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

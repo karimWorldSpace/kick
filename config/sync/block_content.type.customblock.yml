@@ -1,0 +1,8 @@
+uuid: 39de2804-2dbc-434a-8b4c-7eba19cb5239
+langcode: en
+status: true
+dependencies: {  }
+id: customblock
+label: customblock
+revision: false
+description: 'un block personalisé'

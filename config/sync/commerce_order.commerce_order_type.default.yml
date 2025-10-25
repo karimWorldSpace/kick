@@ -1,0 +1,22 @@
+uuid: b03b8b22-a15f-4a54-a92b-039863a0215b
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  commerce_checkout:
+    checkout_flow: shipping
+  commerce_shipping:
+    shipment_type: default
+_core:
+  default_config_hash: kYapI397yx2zFJGyDEs85Hyqgfc9jhmzxqPZMl2Fqhk
+id: default
+label: Default
+traits: {  }
+locked: false
+workflow: order_default
+numberPattern: order_default
+refresh_mode: customer
+refresh_frequency: 300
+sendReceipt: true
+receiptBcc: ''
+receiptSubject: ''

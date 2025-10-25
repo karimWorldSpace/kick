@@ -1,0 +1,22 @@
+uuid: 1d00dc10-665f-43a2-8608-eec837979a36
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - moncustom
+_core:
+  default_config_hash: gKtOcSQTQki2pujw1HB5crJu7WlQmuPbl9cMqPDeWtA
+id: moncustom_help
+theme: moncustom
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

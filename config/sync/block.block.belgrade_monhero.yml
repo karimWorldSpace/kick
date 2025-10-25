@@ -1,0 +1,30 @@
+uuid: ac13255b-e6fb-4167-9f49-5a3e6db1116e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:cklb_hero:faa3bd96-522c-4a8a-9998-b9c9c8544167'
+  module:
+    - block_content
+    - system
+  theme:
+    - belgrade
+id: belgrade_monhero
+theme: belgrade
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:faa3bd96-522c-4a8a-9998-b9c9c8544167'
+settings:
+  id: 'block_content:faa3bd96-522c-4a8a-9998-b9c9c8544167'
+  label: 'Mon hero'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

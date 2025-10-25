@@ -1,0 +1,22 @@
+uuid: d50fec61-64b0-4484-8d36-49bd0d1e3437
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - autretheme
+_core:
+  default_config_hash: uxiZlSldLtoOp05pfXeKJxxtvB0ckxx3mAAabJdAJnU
+id: autretheme_messages
+theme: autretheme
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

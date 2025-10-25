@@ -1,0 +1,27 @@
+uuid: d4fc77ea-1f10-472c-b69d-31a356d28f5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - moncustom
+_core:
+  default_config_hash: W1mUb_Fv5zaCLkG8UWNiJ76yfWgtvNV8gX5jk8SSnEE
+id: moncustom_account_menu
+theme: moncustom
+region: top_bar
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

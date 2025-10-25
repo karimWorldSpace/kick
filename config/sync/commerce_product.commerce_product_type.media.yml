@@ -1,0 +1,16 @@
+uuid: be0885db-5638-4703-9be8-2685287b0e54
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ogh7w6PnB3bAUfmkqmgM8L1o6gz-RH1j7JPTpkzrzco
+id: media
+label: Media
+description: ''
+variationTypes:
+  - media_license_download
+  - media_physical
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

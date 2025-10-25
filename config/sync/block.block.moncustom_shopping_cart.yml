@@ -1,0 +1,24 @@
+uuid: 88cf04d5-36c5-4399-9164-c1ee427dc42c
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - moncustom
+_core:
+  default_config_hash: dkD1_tqLwOGdeyeHmxpUFDeogh-rReXSXIPuhNowRNs
+id: moncustom_shopping_cart
+theme: moncustom
+region: top_bar
+weight: -10
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+  show_if_empty: true
+visibility: {  }
