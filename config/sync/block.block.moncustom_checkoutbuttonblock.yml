@@ -1,0 +1,20 @@
+uuid: 19b28ae5-e894-4d34-a8d1-3e76032184c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_commerce
+  theme:
+    - moncustom
+id: moncustom_checkoutbuttonblock
+theme: moncustom
+region: footer
+weight: 0
+provider: null
+plugin: my_commerce_checkout_button_block
+settings:
+  id: my_commerce_checkout_button_block
+  label: 'Checkout Button Block'
+  label_display: '0'
+  provider: my_commerce
+visibility: {  }
