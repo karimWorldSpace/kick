@@ -1,0 +1,6 @@
+/* Overrides pour cklb.hero.scss (valeurs fixes, pas de variables SCSS) */
+.cklb-hero .cklb-title,
+.cklb-hero .cklb-subtitle,
+.cklb-hero .cklb-text {
+  max-width: 800px !important; /* ajuster si nécessaire */
+}

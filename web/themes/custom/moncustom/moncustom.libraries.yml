@@ -1,4 +1,9 @@
 global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/components/layout-builder/cklb.hero.css: {}
+   
   js:
     js/my-script.js: {}
   dependencies:
