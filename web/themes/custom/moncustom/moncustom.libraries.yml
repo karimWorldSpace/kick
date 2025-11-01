@@ -3,6 +3,7 @@ global-styling:
     theme:
       css/style.css: {}
       css/components/layout-builder/cklb.hero.css: {}
+      css/components/checkout.btn.css: {}
    
   js:
     js/my-script.js: {}

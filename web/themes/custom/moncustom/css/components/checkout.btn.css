@@ -1,0 +1,78 @@
+
+/* Mobile: bouton fixé en bas-centre */
+.edit-checkout {
+  display: none;
+  /* Cacher le bouton par défaut */
+}
+
+@media (max-width: 576px) {
+  .edit-checkout {
+    /* Positionnement fixe en bas de l'écran */
+    display: inline-block;
+    /* Pour un centrage correct */
+    position: fixed;
+    bottom: 20px;
+    /* Distance depuis le bas de l'écran */
+    left: 50%;
+    /* Centre horizontalement */
+    transform: translateX(-50%);
+    /* Déplace le bouton pour qu'il soit centré */
+    z-index: 1000;
+    /* Assure que le bouton est au-dessus des autres éléments */
+    /* Styles du bouton */
+    width: calc(100% - 32px);
+    /* Largeur responsive */
+    max-width: 360px;
+    /* Largeur maximale */
+    padding: 14px 28px;
+    /* Padding unifié (supprimé le doublon) */
+    border-radius: 999px;
+    /* Bord arrondi (remplace 30px pour cohérence) */
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #41449f, #6c757d);
+    /* Remplacé $primary et $secondary par des couleurs par défaut */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    text-align: center;
+    /* Centre le texte à l'intérieur du bouton */
+    text-decoration: none;
+    /* Supprime le soulignement si c'est un lien */
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Animation fluide */
+  }
+
+  /* Effets au survol et focus */
+  .edit-checkout:hover,
+.edit-checkout:focus {
+    transform: translateX(-50%) translateY(-4px);
+    /* Garde le centrage horizontal */
+    box-shadow: 0 20px 50px rgba(255, 61, 0, 0.22), 0 6px 18px rgba(0, 0, 0, 0.14);
+    outline: none;
+  }
+
+  /* Effet au clic */
+  .edit-checkout:active {
+    transform: translateX(-50%) translateY(0) scale(0.995);
+    /* Garde le centrage */
+    box-shadow: 0 8px 22px rgba(255, 61, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Animation douce de pulsation */
+  @keyframes cta-pulse {
+    0% {
+      box-shadow: 0 12px 34px rgba(255, 61, 0, 0.16);
+    }
+    50% {
+      box-shadow: 0 18px 44px rgba(255, 61, 0, 0.1);
+    }
+    100% {
+      box-shadow: 0 12px 34px rgba(255, 61, 0, 0.16);
+    }
+  }
+  /* Appliquer l'animation de pulsation */
+  .edit-checkout {
+    animation: cta-pulse 2s infinite ease-in-out;
+    /* Animation appliquée par défaut */
+  }
+}
